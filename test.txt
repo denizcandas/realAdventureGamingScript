@@ -1,0 +1,26 @@
+"""
+Programa soru sayısı, soru tipi, kaçıncı soru olduğu
+Gerekenler: giriş sayfası, kazanma sayfası, sıralı (numaralarla) sorular, hata
+Sorunun yanıtının gizli bir şekilde tutulması, verilen yanıtın gerçek yanıt
+olması durumunda sonraki sayfaya geçilmesi, olmaması durumunda hatanın söylenip
+oyunun baştan başlatılması.
+
+3 temel aşama: soruların bir text formatında programa verilmesi, programın
+gerekenleri hazırlaması, hazırlanan dosyanın oyunculara basit bir arayüzde
+sağlanması
+
+Soruları soran ve yanıt veren programın yapması gerekenler:
+Soruyu göstermek, yanıtı istemek, yanıtı karşılaştırmak, doğru yanıt verildiyse
+sonraki soruya geçmek, hatalı yanıtta hata ekranına geçiş yapmak
+"""
+
+python setup.py py2exe
+
+start = ("Merhaba maceraperest, yolculuğuna hoşgeldin. Topladığın ipuçlarını" +
+"komut olarak yaz ve sonarasında ENTER tuşuna bas. ENTER tuşuna basarak ilk" +
+"soruya geçebilirsin!")
+
+defeat = ("Bir ejdarha erzakları yaktı ya da takımındaki savaşçı yine zihin" +
+"kontrolü altına alındı! Maceraya baştan başlamak için ENTER tuşuna bas.")
+
+end = ("Yolculuğun sonuna geldin maceracı. İyi dileklerim seninle!")
